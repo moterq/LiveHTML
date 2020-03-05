@@ -1,0 +1,20 @@
+@import url(./head-left.css);
+@import url(./head-right.css);
+
+.head {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+.head a{
+
+    text-decoration: none;
+    color: #000;
+}
+.head-right{
+    margin-top: -2.5px;
+ 
+
+}

@@ -1,0 +1,21 @@
+@import url(./head.css);
+@import url(./toolbar.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body a{
+    text-decoration: none;
+}
+.main {
+   width: 1440px;
+height: 293px;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin: 0 auto;
+
+}

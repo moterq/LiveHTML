@@ -1,0 +1,229 @@
+.toolbar{
+    /* width: 1170px; */
+    width: 1170px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: #ccc 0px 2px 4px;
+    
+}
+.toolbar a{
+    color: #fff;
+}
+.toolbar a:hover{
+    color: #000;
+}
+.toolbar p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.toolbar-buttons{
+    background:#252525;
+    color: #fff;
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.toolbar-buttons:hover{
+    color: #000;
+    background-color: #ffcc00;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+.toolbar-search {
+    width: 40px;
+    height: 35px;
+    background-color: #ffcc00;
+    
+    border-radius: 9px 0px 0px 9px;
+    -webkit-border-radius: 9px 0px 0px 9px;
+    -moz-border-radius: 9px 0px 0px 9px;
+    -ms-border-radius: 9px 0px 0px 9px;
+    -o-border-radius: 9px 0px 0px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.toolbar-search:hover{
+    border: #252525 2px solid;
+    height: 31px;
+    width: 36px;
+}
+.toolbar-search img {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding-top: 0;
+}
+.toolbar-one{
+
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.toolbar-two{
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.toolbar-three{
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.toolbar-four{
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.toolbar-five{
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.toolbar-six{
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.toolbar-seven{
+   padding-left: 20px;
+   padding-right: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.toolbar-zero{
+    background: #252525;
+  
+   width: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar-sale{
+    background-color: #ffcc00;
+ text-transform: uppercase;
+    padding-left: 15px;
+   padding-right: 15px;
+   height: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius:  0px 9px 9px 0px;
+    -webkit-border-radius:  0px 9px 9px 0px;
+    -moz-border-radius:  0px 9px 9px 0px;
+    -ms-border-radius:  0px 9px 9px 0px;
+    -o-border-radius:  0px 9px 9px 0px;
+}
+
+.toolbar-sale a{
+    color: #000;
+}
+.toolbar-sale:hover{
+    
+    border: 2px solid black;
+    height: 31px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+
+
+.toolbar-search {
+    background-image: url(https://img.icons8.com/material-sharp/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.toolbar-search form {
+  height: 35px;
+}
+.toolbar-search input {
+  height: 35px;
+  width: 0;
+  padding: 40px 0px 0px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+  cursor: pointer;
+
+  z-index: 2;
+}
+.toolbar-search input:focus {
+  width: 260px;
+  margin-left: 220px;
+  padding-left: 5px;
+  z-index: 1;
+  border-bottom: 2px solid #252525;
+}
+.toolbar-search button {
+  /* background-image: url(https://img.icons8.com/material-sharp/24/000000/search.png) ; */
+  border: none;
+  height: 35px;
+  width: 35px;
+ 
+  
+  cursor: pointer;
+  display: none;
+}
+/* .toolbar-search button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+} */
